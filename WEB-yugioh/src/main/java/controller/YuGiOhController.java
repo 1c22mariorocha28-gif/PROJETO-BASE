@@ -48,14 +48,18 @@ public class YuGiOhController extends HttpServlet {
         // Garante UTF-8 nas respostas (acentos corretos nos JSPs)
         response.setCharacterEncoding("UTF-8");
 
-        String path = request.getPathInfo(); // ex.: "/list", "/new"...
+        // CORREÇÃO: como o servlet é mapeado por URLs exatas (@WebServlet com
+        // "/list", "/new", ...), getPathInfo() SEMPRE retorna null nesses casos.
+        // O caminho real da requisição é getServletPath(). Usar só pathInfo fazia
+        // toda ação cair no default e quebrar o roteamento.
+        String path = request.getServletPath(); // ex.: "/list", "/new"...
         if (path == null || path.isEmpty() || "/".equals(path)) {
-            path = request.getServletPath();
+            path = request.getPathInfo();
         }
         System.out.println("Caminho: " + path);
 
         // Roteamento de Ações (Trabalho Prático 03)
-        switch (path) {
+        switch (path == null ? "" : path) {
             case "/new":
             case "/form":
                 showForm(request, response);
@@ -96,23 +100,31 @@ public class YuGiOhController extends HttpServlet {
         }
         request.setAttribute("tipoAtual", tipo);
         request.setAttribute("cartas", cartas);
-        request.getRequestDispatcher("/WEB-INF/views/lista-cartas.jsp")
+        // CORREÇÃO: a pasta do projeto é "view" (sem "s") — antes o forward
+        // apontava para /WEB-INF/views/, que não existe, gerando 404.
+        request.getRequestDispatcher("/WEB-INF/view/lista-cartas.jsp")
                 .forward(request, response);
     }
 
     private void showForm(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/views/formulario-carta.jsp")
+        request.getRequestDispatcher("/WEB-INF/view/formulario-carta.jsp")
                 .forward(request, response);
     }
 
     private void showEdit(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Captura ID (ex: /edit?id=1)
-        int id = Integer.parseInt(request.getParameter("id"));
+        // Captura ID (ex: /edit?id=1) — validação evita NumberFormatException (500)
+        int id;
+        try {
+            id = Integer.parseInt(request.getParameter("id"));
+        } catch (NumberFormatException | NullPointerException e) {
+            response.sendRedirect(request.getContextPath() + "/list");
+            return;
+        }
         CartaYuGiOh carta = dao.buscarPorId(id);
         request.setAttribute("carta", carta);
-        request.getRequestDispatcher("/WEB-INF/views/formulario-carta.jsp")
+        request.getRequestDispatcher("/WEB-INF/view/formulario-carta.jsp")
                 .forward(request, response);
     }
 
@@ -142,14 +154,14 @@ public class YuGiOhController extends HttpServlet {
         dao.inserir(carta);
 
         // Redirecionar para evitar re-submissão (Trabalho Prático 03)
-        response.sendRedirect("list");
+        response.sendRedirect(request.getContextPath() + "/list");
     }
 
     private void delete(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         dao.remover(id);
-        response.sendRedirect("list");
+        response.sendRedirect(request.getContextPath() + "/list");
     }
 
     private void update(HttpServletRequest request, HttpServletResponse response)
@@ -175,6 +187,6 @@ public class YuGiOhController extends HttpServlet {
         carta.setBonusDefesa(defesa);
 
         dao.alterar(carta);
-        response.sendRedirect("list");
+        response.sendRedirect(request.getContextPath() + "/list");
     }
 }
