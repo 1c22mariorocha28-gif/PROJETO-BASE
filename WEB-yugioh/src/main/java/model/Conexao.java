@@ -10,6 +10,18 @@ public class Conexao {
     private static final String USER = "root";
     private static final String PASS = "ryansophia";
 
+    // CORREÇÃO: registra o driver JDBC explicitamente na classe.
+    // Sem isso, em alguns containers (Tomcat) aparece
+    // "No suitable driver found for jdbc:mysql://..." e a página /list quebra.
+    static {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new ExceptionInInitializerError(
+                    "Driver MySQL não encontrado no classpath: " + e.getMessage());
+        }
+    }
+
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASS);
     }
