@@ -1,0 +1,550 @@
+29-Oct-2026 15:29:08.664 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:29:08.728 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Oct-2026 15:29:08.735 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:29:08.750 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:29:19.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+29-Oct-2026 15:29:19.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+29-Oct-2026 15:29:19.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+29-Oct-2026 15:29:19.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Oct-2026 15:29:19.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Oct-2026 15:29:19.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Oct-2026 15:29:19.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+29-Oct-2026 15:29:19.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+29-Oct-2026 15:29:19.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Oct-2026 15:29:19.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 15:29:19.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 15:29:19.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2026 15:29:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2026 15:29:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2026 15:29:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2026 15:29:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2026 15:29:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 15:29:19.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 15:29:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\temp
+29-Oct-2026 15:29:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\logging.properties
+29-Oct-2026 15:29:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2026 15:29:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\1c22m\IntelliJ IDEA 2026.2.2\lib\idea_rt.jar=58030
+29-Oct-2026 15:29:19.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Oct-2026 15:29:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+29-Oct-2026 15:29:19.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+29-Oct-2026 15:29:19.511 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+29-Oct-2026 15:29:19.534 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+29-Oct-2026 15:29:20.066 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:29:20.090 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1209] milliseconds
+29-Oct-2026 15:29:20.170 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Oct-2026 15:29:20.170 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+29-Oct-2026 15:29:20.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+29-Oct-2026 15:29:20.255 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps] inside the host appBase has been specified, and will be ignored
+29-Oct-2026 15:29:20.384 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:619)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:588)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:685)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:668)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1915)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:447)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1652)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:342)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:792)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:810)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1243)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1233)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:765)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:875)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:905)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@61710c6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:185)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4367)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4489)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:616)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps\ROOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:822)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:774)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		... 39 more
+29-Oct-2026 15:29:20.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml] has finished in [194] ms
+29-Oct-2026 15:29:20.408 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:29:20.542 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [449] milliseconds
+29-Oct-2026 15:41:03.235 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:41:03.277 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Oct-2026 15:41:03.283 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:41:03.306 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:51:58.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+29-Oct-2026 15:51:58.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+29-Oct-2026 15:51:58.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+29-Oct-2026 15:51:58.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Oct-2026 15:51:58.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Oct-2026 15:51:58.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Oct-2026 15:51:58.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+29-Oct-2026 15:51:58.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+29-Oct-2026 15:51:58.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Oct-2026 15:51:58.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 15:51:58.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 15:51:58.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2026 15:51:58.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2026 15:51:58.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2026 15:51:58.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2026 15:51:58.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2026 15:51:58.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 15:51:58.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 15:51:58.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\temp
+29-Oct-2026 15:51:58.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\logging.properties
+29-Oct-2026 15:51:58.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2026 15:51:58.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\1c22m\IntelliJ IDEA 2026.2.2\lib\idea_rt.jar=62994
+29-Oct-2026 15:51:58.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Oct-2026 15:51:58.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+29-Oct-2026 15:51:58.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+29-Oct-2026 15:51:58.206 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+29-Oct-2026 15:51:58.239 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+29-Oct-2026 15:51:58.725 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:51:58.761 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1124] milliseconds
+29-Oct-2026 15:51:58.865 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Oct-2026 15:51:58.865 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+29-Oct-2026 15:51:58.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+29-Oct-2026 15:51:58.954 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps] inside the host appBase has been specified, and will be ignored
+29-Oct-2026 15:51:59.063 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:619)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:588)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:685)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:668)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1915)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:447)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1652)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:342)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:792)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:810)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1243)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1233)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:765)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:875)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:905)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@45efd90f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:185)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4367)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4489)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:616)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps\ROOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:822)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:774)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		... 39 more
+29-Oct-2026 15:51:59.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml] has finished in [178] ms
+29-Oct-2026 15:51:59.108 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 15:51:59.274 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [509] milliseconds
+29-Oct-2026 17:51:19.427 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:51:19.505 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Oct-2026 17:51:19.512 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:51:19.538 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:51:28.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+29-Oct-2026 17:51:28.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+29-Oct-2026 17:51:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+29-Oct-2026 17:51:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Oct-2026 17:51:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Oct-2026 17:51:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Oct-2026 17:51:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+29-Oct-2026 17:51:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+29-Oct-2026 17:51:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Oct-2026 17:51:28.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 17:51:28.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 17:51:28.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2026 17:51:28.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2026 17:51:28.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2026 17:51:28.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2026 17:51:28.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2026 17:51:28.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 17:51:28.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 17:51:28.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\temp
+29-Oct-2026 17:51:28.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\logging.properties
+29-Oct-2026 17:51:28.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2026 17:51:28.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\1c22m\IntelliJ IDEA 2026.2.2\lib\idea_rt.jar=64150
+29-Oct-2026 17:51:28.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Oct-2026 17:51:28.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+29-Oct-2026 17:51:28.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+29-Oct-2026 17:51:28.165 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+29-Oct-2026 17:51:28.202 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+29-Oct-2026 17:51:28.765 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:51:28.789 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2393] milliseconds
+29-Oct-2026 17:51:28.902 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Oct-2026 17:51:28.902 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+29-Oct-2026 17:51:28.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+29-Oct-2026 17:51:28.989 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps] inside the host appBase has been specified, and will be ignored
+29-Oct-2026 17:51:29.101 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:619)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:588)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:685)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:668)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1915)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:447)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1652)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:342)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:792)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:810)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1243)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1233)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:765)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:875)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:905)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4b8729ff]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:185)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4367)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4489)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:616)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps\ROOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:822)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:774)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		... 39 more
+29-Oct-2026 17:51:29.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml] has finished in [183] ms
+29-Oct-2026 17:51:29.128 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:51:29.235 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [443] milliseconds
+29-Oct-2026 17:57:35.930 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:57:35.978 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Oct-2026 17:57:35.985 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:57:35.999 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:57:49.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+29-Oct-2026 17:57:49.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+29-Oct-2026 17:57:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+29-Oct-2026 17:57:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Oct-2026 17:57:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Oct-2026 17:57:49.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Oct-2026 17:57:49.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+29-Oct-2026 17:57:49.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+29-Oct-2026 17:57:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Oct-2026 17:57:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 17:57:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 17:57:49.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2026 17:57:49.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2026 17:57:49.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2026 17:57:49.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2026 17:57:49.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2026 17:57:49.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 17:57:49.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 17:57:49.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\temp
+29-Oct-2026 17:57:49.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\logging.properties
+29-Oct-2026 17:57:49.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2026 17:57:49.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\1c22m\IntelliJ IDEA 2026.2.2\lib\idea_rt.jar=59279
+29-Oct-2026 17:57:49.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Oct-2026 17:57:49.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+29-Oct-2026 17:57:49.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+29-Oct-2026 17:57:49.762 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+29-Oct-2026 17:57:49.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+29-Oct-2026 17:57:50.363 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:57:50.396 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1224] milliseconds
+29-Oct-2026 17:57:50.509 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Oct-2026 17:57:50.509 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+29-Oct-2026 17:57:50.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+29-Oct-2026 17:57:50.594 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps] inside the host appBase has been specified, and will be ignored
+29-Oct-2026 17:57:50.700 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:619)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:588)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:685)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:668)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1915)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:447)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1652)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:342)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:792)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:810)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1243)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1233)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:765)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:875)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:905)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@45efd90f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:185)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4367)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4489)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:616)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps\ROOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:822)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:774)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		... 39 more
+29-Oct-2026 17:57:50.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml] has finished in [173] ms
+29-Oct-2026 17:57:50.746 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:57:50.956 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [556] milliseconds
+29-Oct-2026 17:57:52.315 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:57:52.383 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Oct-2026 17:57:52.389 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:57:52.402 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:59:55.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+29-Oct-2026 17:59:55.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+29-Oct-2026 17:59:55.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+29-Oct-2026 17:59:55.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Oct-2026 17:59:55.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Oct-2026 17:59:55.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Oct-2026 17:59:55.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+29-Oct-2026 17:59:55.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+29-Oct-2026 17:59:55.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Oct-2026 17:59:55.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 17:59:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 17:59:55.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2026 17:59:55.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2026 17:59:55.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\temp
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\logging.properties
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2026 17:59:55.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\1c22m\IntelliJ IDEA 2026.2.2\lib\idea_rt.jar=56045
+29-Oct-2026 17:59:55.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Oct-2026 17:59:55.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+29-Oct-2026 17:59:55.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+29-Oct-2026 17:59:55.176 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+29-Oct-2026 17:59:55.202 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+29-Oct-2026 17:59:55.732 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:59:55.757 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1158] milliseconds
+29-Oct-2026 17:59:55.836 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Oct-2026 17:59:55.836 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+29-Oct-2026 17:59:55.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+29-Oct-2026 17:59:55.909 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps] inside the host appBase has been specified, and will be ignored
+29-Oct-2026 17:59:56.032 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:619)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:588)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:685)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:668)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1915)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:447)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1652)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:342)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:792)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:810)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1243)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1233)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:765)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:875)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:905)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@61710c6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:185)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4367)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4489)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:616)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps\ROOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:822)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:774)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		... 39 more
+29-Oct-2026 17:59:56.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml] has finished in [184] ms
+29-Oct-2026 17:59:56.072 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 17:59:56.270 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [509] milliseconds
+29-Oct-2026 18:02:22.578 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 18:02:22.603 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Oct-2026 18:02:22.606 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 18:02:22.615 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 18:02:30.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+29-Oct-2026 18:02:30.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+29-Oct-2026 18:02:30.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+29-Oct-2026 18:02:30.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Oct-2026 18:02:30.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Oct-2026 18:02:30.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Oct-2026 18:02:30.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+29-Oct-2026 18:02:30.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+29-Oct-2026 18:02:30.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Oct-2026 18:02:30.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 18:02:30.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 18:02:30.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2026 18:02:30.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\1c22m\Downloads\apache-tomcat-10.1.61-windows-x64\apache-tomcat-10.1.61
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\temp
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\logging.properties
+29-Oct-2026 18:02:30.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2026 18:02:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\1c22m\IntelliJ IDEA 2026.2.2\lib\idea_rt.jar=61731
+29-Oct-2026 18:02:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+29-Oct-2026 18:02:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+29-Oct-2026 18:02:30.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+29-Oct-2026 18:02:30.986 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.16] using APR version [1.7.6].
+29-Oct-2026 18:02:31.022 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.8 25 Aug 2026]
+29-Oct-2026 18:02:31.662 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 18:02:31.695 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1146] milliseconds
+29-Oct-2026 18:02:31.795 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Oct-2026 18:02:31.796 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+29-Oct-2026 18:02:31.822 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+29-Oct-2026 18:02:31.875 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps] inside the host appBase has been specified, and will be ignored
+29-Oct-2026 18:02:31.972 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:619)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:588)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:685)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:668)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1915)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:125)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:447)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1652)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:342)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:792)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:810)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1243)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1233)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:149)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:765)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:875)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:905)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@45efd90f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:410)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:185)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4367)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4489)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:616)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\webapps\ROOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:822)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:774)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		... 39 more
+29-Oct-2026 18:02:31.989 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\1c22m\OneDrive\Desktop\trabalhos\WEB-yugioh\src\conf\Catalina\localhost\ROOT.xml] has finished in [156] ms
+29-Oct-2026 18:02:31.997 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 18:02:32.118 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [418] milliseconds
+29-Oct-2026 18:03:07.776 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 18:03:07.786 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Oct-2026 18:03:07.788 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2026 18:03:07.793 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
