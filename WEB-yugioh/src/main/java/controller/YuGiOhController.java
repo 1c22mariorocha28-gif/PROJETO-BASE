@@ -159,7 +159,14 @@ public class YuGiOhController extends HttpServlet {
 
     private void delete(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
-        int id = Integer.parseInt(request.getParameter("id"));
+        // Captura ID (ex.: /delete?id=1) — validação evita NumberFormatException (500)
+        int id;
+        try {
+            id = Integer.parseInt(request.getParameter("id"));
+        } catch (NumberFormatException | NullPointerException e) {
+            response.sendRedirect(request.getContextPath() + "/list");
+            return;
+        }
         dao.remover(id);
         response.sendRedirect(request.getContextPath() + "/list");
     }
@@ -168,7 +175,14 @@ public class YuGiOhController extends HttpServlet {
             throws IOException {
         request.setCharacterEncoding("UTF-8");
 
-        int id = Integer.parseInt(request.getParameter("id"));
+        // Validação do id (mesma proteção usada em /edit e /delete)
+        int id;
+        try {
+            id = Integer.parseInt(request.getParameter("id"));
+        } catch (NumberFormatException | NullPointerException e) {
+            response.sendRedirect(request.getContextPath() + "/list");
+            return;
+        }
         String nomeCarta = request.getParameter("nomeCarta");
         String tipo = request.getParameter("tipo");
         String raridade = request.getParameter("raridade");
