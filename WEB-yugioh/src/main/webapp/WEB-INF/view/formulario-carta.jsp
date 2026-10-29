@@ -4,13 +4,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>${not empty carta ? 'Editar' : 'Nova'} Carta</title>
+    <title><c:out value="${not empty carta ? 'Editar' : 'Nova'}" /> Carta</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/estilos.css">
 </head>
 <body>
     <div class="container form-container">
         <header>
-            <h1>${not empty carta ? '✏️ Editar Carta' : '✨ Nova Carta'}</h1>
+            <h1><c:out value="${not empty carta ? '✏️ Editar Carta' : '✨ Nova Carta'}" /></h1>
         </header>
 
         <c:set var="isEdit" value="${not empty carta}" />
@@ -22,7 +22,7 @@
 
             <div class="form-group">
                 <label for="nomeCarta">Nome da Carta</label>
-                <input type="text" id="nomeCarta" name="nomeCarta" value="${carta.nomeCarta}" required placeholder="Ex: Dragão Branco de Olhos Azuis">
+                <input type="text" id="nomeCarta" name="nomeCarta" value="<c:out value="${carta.nomeCarta}" />" required placeholder="Ex: Dragão Branco de Olhos Azuis">
             </div>
 
             <div class="form-row">
@@ -52,12 +52,12 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="bonusAtaque">Bônus de Ataque</label>
-                    <input type="number" id="bonusAtaque" name="bonusAtaque" value="${carta.bonusAtaque}" placeholder="0">
+                    <input type="number" id="bonusAtaque" name="bonusAtaque" value="${empty carta ?  : carta.bonusAtaque}" placeholder="0">
                 </div>
 
                 <div class="form-group">
                     <label for="bonusDefesa">Bônus de Defesa</label>
-                    <input type="number" id="bonusDefesa" name="bonusDefesa" value="${carta.bonusDefesa}" placeholder="0">
+                    <input type="number" id="bonusDefesa" name="bonusDefesa" value="${empty carta ?  : carta.bonusDefesa}" placeholder="0">
                 </div>
             </div>
 
